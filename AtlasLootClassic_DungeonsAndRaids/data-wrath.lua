@@ -21,6 +21,7 @@ local ALIL = AtlasLoot.IngameLocales
 
 local NORMAL_DIFF = data:AddDifficulty("NORMAL", nil, nil, nil, true)
 local HEROIC_DIFF = data:AddDifficulty("HEROIC", nil, nil, nil, true)
+local TITAN_RUNE_ALPHA_DIFF = data:AddDifficulty("TITAN RUNE: ALPHA", nil, nil, nil, true)
 local RAID10_DIFF = data:AddDifficulty("10RAID")
 local RAID10H_DIFF = data:AddDifficulty("10RAIDH")
 local RAID25_DIFF = data:AddDifficulty("25RAID")
@@ -587,6 +588,9 @@ data["AhnKahet"] = {
                 { 5, 37592 }, -- Brood Plague Helmet
                 { 6, 37591 }, -- Nerubian Shield Ring
                 { 16, "ac2038" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- AhnkahetTaldaram / 16
@@ -607,6 +611,9 @@ data["AhnKahet"] = {
                 { 4, 37614 }, -- Gauntlets of the Plundering Geist
                 { 5, 37612 }, -- Bonegrinder Breastplate
                 { 6, 37595 }, -- Necklace of Taldaram
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- AhnkahetAmanitarHEROIC / 17
@@ -622,6 +629,9 @@ data["AhnKahet"] = {
                 { 4, 43286 }, -- Legguards of Swarming Attacks
                 { 5, 43285 }, -- Amulet of the Spell Flinger
                 { 6, 43284 }, -- Amanitar Skullbow
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- AhnkahetJedoga / 18
@@ -645,6 +655,9 @@ data["AhnKahet"] = {
                 { 6, 43281 }, -- Edge of Oblivion
                 { 16, 21524 }, -- Red Winter Hat
                 { 18, "ac2056" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- AhnkahetVolazj / 19
@@ -672,6 +685,9 @@ data["AhnKahet"] = {
                 { 16, 43102 }, -- Frozen Orb
                 { 18, 41790 }, -- Design: Precise Scarlet Ruby
 				{ 20, "ac1862" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- Trash
@@ -723,6 +739,9 @@ data["AzjolNerub"] = {
                 { 5, 37217 }, -- Golden Limb Bands
                 { 6, 37216 }, -- Facade Shield of Glyphs
                 { 16, "ac1296" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- AzjolNerubHadronox / 12
@@ -744,6 +763,9 @@ data["AzjolNerub"] = {
                 { 5, 37221 }, -- Hollowed Mandible Legplates
                 { 6, 37220 }, -- Essence of Gossamer
                 { 16, "ac1297" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- AzjolNerubAnubarak / 13
@@ -772,6 +794,9 @@ data["AzjolNerub"] = {
                 { 16, 43102 }, -- Frozen Orb
                 { 18, 41796 }, -- Design: Infused Twilight Opal
                 { 20, "ac1860" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- Trash
@@ -819,6 +844,9 @@ data["DrakTharonKeep"] = {
                 { 5, 37717 }, -- Legs of Physical Regeneration
                 { 6, 37712 }, -- Terrace Defence Boots
                 { 16, "ac2151" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- DrakTharonKeepNovos / 22
@@ -838,6 +866,9 @@ data["DrakTharonKeep"] = {
                 { 4, 37718 }, -- Temple Crystal Fragment
                 { 5, 37721 }, -- Cursed Lich Blade
                 { 16, "ac2057" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- DrakTharonKeepKingDred / 23
@@ -859,6 +890,9 @@ data["DrakTharonKeep"] = {
                 { 5, 37726 }, -- King Dred's Helm
                 { 6, 37723 }, -- Incisor Fragment
                 { 16, "ac2039" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- DrakTharonKeepTharonja / 24
@@ -886,6 +920,9 @@ data["DrakTharonKeep"] = {
                 { 16, 43102 }, -- Frozen Orb
                 { 18, 41795 }, -- Design: Timeless Forest Emerald
                 { 20, "ac1658" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- Trash
@@ -938,6 +975,9 @@ data["Gundrak"] = {
                 { 5, 37627 }, -- Snake Den Spaulders
                 { 6, 37626 }, -- Wand of Sseratus
                 { 16, "ac2058" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- GundrakColossus / 35
@@ -958,6 +998,9 @@ data["Gundrak"] = {
                 { 4, 37636 }, -- Helm of Cheated Fate
                 { 5, 37634 }, -- Bracers of the Divine Elemental
                 { 6, 37635 }, -- Pauldrons of the Colossus
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- GundrakMoorabi / 36
@@ -979,6 +1022,9 @@ data["Gundrak"] = {
                 { 5, 37632 }, -- Mojo Frenzy Greaves
                 { 6, 37631 }, -- Fist of the Deity
                 { 16, "ac2040" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- GundrakEckHEROIC / 37
@@ -994,6 +1040,9 @@ data["Gundrak"] = {
                 { 4, 43312 }, -- Gorloc Muddy Footwraps
                 { 5, 43311 }, -- Helmet of the Shrine
                 { 6, 43310 }, -- Engraved Chestplate of Eck
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- GundrakGaldarah / 38
@@ -1021,6 +1070,9 @@ data["Gundrak"] = {
                 { 16, 43102 }, -- Frozen Orb
 				{ 18, "ac2152" },
 				{ 19, "ac1864" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- Trash
@@ -1075,6 +1127,9 @@ data["HallsofLightning"] = {
                 { 5, 37814 }, -- Iron Dwarf Smith Pauldrons
                 { 6, 37826 }, -- The General's Steel Girdle
                 { 16, "ac1834" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- HallsofLightningVolkhan / 46
@@ -1097,6 +1152,9 @@ data["HallsofLightning"] = {
                 { 5, 37842 }, -- Belt of Vivacity
                 { 6, 37841 }, -- Slag Footguards
                 { 16, "ac2042" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- HallsofLightningIonar / 47
@@ -1118,6 +1176,9 @@ data["HallsofLightning"] = {
                 { 4, 37845 }, -- Cord of Swirling Winds
                 { 5, 37826 }, -- The General's Steel Girdle
                 { 6, 37844 }, -- Winged Talisman
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- HallsofLightningLoken / 48
@@ -1152,6 +1213,9 @@ data["HallsofLightning"] = {
                 { 16, 43102 }, -- Frozen Orb
                 { 18, 41799 }, -- Design: Eternal Earthsiege Diamond
                 { 20, "ac1867" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- Trash
@@ -1203,6 +1267,9 @@ data["HallsofStone"] = {
                 { 3, 37652 }, -- Spaulders of Krystallus
                 { 4, 37650 }, -- Shardling Legguards
                 { 5, 37651 }, -- The Prospector's Prize
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- HallsofStoneMaiden / 40
@@ -1224,6 +1291,9 @@ data["HallsofStone"] = {
                 { 5, 38617 }, -- Woeful Band
                 { 6, 38618 }, -- Hammer of Grief
                 { 16, "ac1866" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- HallsofStoneTribunal / 42
@@ -1245,6 +1315,9 @@ data["HallsofStone"] = {
                 { 5, 37654 }, -- Sabatons of the Ages
                 { 6, 37653 }, -- Sword of Justice
                 { 16, "ac2154" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- HallsofStoneSjonnir / 43
@@ -1272,6 +1345,9 @@ data["HallsofStone"] = {
                 { 16, 43102 }, -- Frozen Orb
                 { 18, 41792 }, -- Design: Deft Monarch Topaz
                 { 20, "ac2155" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- Trash
@@ -1325,6 +1401,9 @@ data["TheCullingOfStratholme"] = {
                 { 4, 37678 }, -- Bile-Cured Gloves
                 { 5, 37679 }, -- Spaulders of the Abomination
                 { 6, 37675 }, -- Legplates of Steel Implants
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- CoTStratholmeSalramm
@@ -1346,6 +1425,9 @@ data["TheCullingOfStratholme"] = {
                 { 4, 37682 }, -- Bindings of Dark Will
                 { 5, 37683 }, -- Necromancer's Amulet
                 { 6, 37681 }, -- Gavel of the Fleshcrafter
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- CoTStratholmeEpoch
@@ -1367,6 +1449,9 @@ data["TheCullingOfStratholme"] = {
                 { 4, 37686 }, -- Cracked Epoch Grasps
                 { 5, 37688 }, -- Legplates of the Infinite Drakonid
                 { 6, 37685 }, -- Mobius Band
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- CoTStratholmeMalGanis
@@ -1398,6 +1483,9 @@ data["TheCullingOfStratholme"] = {
                 { 10, 37689 }, -- Pendant of the Nathrezim
                 { 11, 37692 }, -- Pierce's Pistol
                 { 16, 43102 }, -- Frozen Orb
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- CoTStratholmeInfiniteCorruptorHEROIC
@@ -1452,6 +1540,9 @@ data["TheNexus"] = {
                 { 4, 37731 }, -- Opposed Stasis Leggings
                 { 5, 37730 }, -- Cleric's Linen Shoes
                 { 6, 37729 }, -- Grips of Sculptured Icicles
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- TheNexusTelestra / 6
@@ -1475,6 +1566,11 @@ data["TheNexus"] = {
                 { 6, 37134 }, -- Telestra's Journal
                 { 16, 21524 }, -- Red Winter Hat
                 { 18, "ac2150" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+                { 1, 39397 }, -- Pauldrons of Havoc - 4 Horsemen
+                { 2, 39393 }, -- Claymore of Ancient Power - 4 Horsemen
+                { 3, 39388 }, -- Spirit-World Glass - Gothik
             }
         },
         { -- TheNexusAnomalus / 7
@@ -1496,6 +1592,9 @@ data["TheNexus"] = {
                 { 4, 37150 }, -- Rift Striders
                 { 5, 37141 }, -- Amulet of Dazzling Light
                 { 16, "ac2037" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- TheNexusOrmorok / 8
@@ -1516,6 +1615,9 @@ data["TheNexus"] = {
                 { 4, 37155 }, -- Frozen Forest Kilt
                 { 5, 37152 }, -- Girdle of Ice
                 { 6, 37151 }, -- Band of Frosted Thorns
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- TheNexusKeristrasza / 10
@@ -1543,6 +1645,9 @@ data["TheNexus"] = {
                 { 16, 43102 }, -- Frozen Orb
                 { 18, 41794 }, -- Design: Deadly Monarch Topaz
                 { 20, "ac2036" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         KEYS,
@@ -1582,6 +1687,9 @@ data["TheOculus"] = {
                 { 4, 37256 }, -- Scaled Armor of Drakos
                 { 5, 37257 }, -- Band of Torture
                 { 6, 37255 }, -- The Interrogator
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- OcuCloudstrider / 63
@@ -1603,6 +1711,9 @@ data["TheOculus"] = {
                 { 4, 37262 }, -- Azure Ringmail Leggings
                 { 5, 37263 }, -- Legplates of the Oculus Guardian
                 { 6, 37260 }, -- Cloudstrider's Waraxe
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- OcuUrom / 62
@@ -1626,6 +1737,9 @@ data["TheOculus"] = {
                 { 5, 37195 }, -- Band of Enchanted Growth
                 { 6, 37264 }, -- Pendulum of Telluric Currents
                 { 16, 21525 }, -- Green Winter Hat
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- OcuEregos / 64
@@ -1663,6 +1777,9 @@ data["TheOculus"] = {
 				{ 23, "ac2046" },
 				{ 24, "ac2045" },
 				{ 25, "ac2044" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- Trash
@@ -1711,6 +1828,9 @@ data["VioletHold"] = {
                 { 3, 43406 }, -- Cloak of the Gushing Wound
                 { 4, 43405 }, -- Sabatons of Erekem
                 { 5, 43407 }, -- Stormstrike Mace
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- VioletHoldZuramat / 27
@@ -1728,6 +1848,9 @@ data["VioletHold"] = {
                 { 3, 43403 }, -- Shroud of Darkness
                 { 4, 43402 }, -- The Obliterator Greaves
                 { 5, 43404 }, -- Zuramat's Necklace
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- VioletHoldXevozz / 28
@@ -1745,6 +1868,9 @@ data["VioletHold"] = {
                 { 3, 37867 }, -- Footwraps of Teleportation
                 { 4, 37868 }, -- Girdle of the Ethereal
                 { 5, 37861 }, -- Necklace of Arcane Spheres
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- VioletHoldIchoron / 29
@@ -1762,6 +1888,9 @@ data["VioletHold"] = {
                 { 3, 43401 }, -- Water-Drenched Robe
                 { 4, 37862 }, -- Gauntlets of the Water Revenant
                 { 5, 37869 }, -- Globule Signet
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- VioletHoldMoragg / 30
@@ -1779,6 +1908,9 @@ data["VioletHold"] = {
                 { 3, 43410 }, -- Moragg's Chestguard
                 { 4, 43408 }, -- Solitare of Reflecting Beams
                 { 5, 43409 }, -- Saliva Corroded Pike
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- VioletHoldLavanthor / 31
@@ -1796,6 +1928,9 @@ data["VioletHold"] = {
                 { 3, 37870 }, -- Twin-Headed Boots
                 { 4, 37872 }, -- Lavanthor's Talisman
                 { 5, 37871 }, -- The Key
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- VioletHoldCyanigosa / 32
@@ -1821,6 +1956,9 @@ data["VioletHold"] = {
                 { 10, 37873 }, -- Mark of the War Prisoner
                 { 16, 43102 }, -- Frozen Orb
                 { 18, 41791 }, -- Design: Thick Autumn's Glow
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- Trash
@@ -1874,6 +2012,9 @@ data["UtgardeKeep"] = {
                 { 5, 37179 }, -- Infantry Assault Blade
                 { 6, 37177 }, -- Wand of the San'layn
                 { 16, "ac1919" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- UtgardeKeepSkarvald / 3
@@ -1894,6 +2035,9 @@ data["UtgardeKeep"] = {
                 { 4, 37184 }, -- Dalronn's Jerkin
                 { 5, 37182 }, -- Helmet of the Constructor
                 { 6, 37181 }, -- Dagger of Betrayal
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- UtgardeKeepIngvar / 4
@@ -1922,6 +2066,9 @@ data["UtgardeKeep"] = {
                 { 16, 43102 }, -- Frozen Orb
                 { 18, 41793 }, -- Design: Fierce Monarch Topaz
                 { 20, "ac1658" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- Trash
@@ -1974,6 +2121,9 @@ data["UtgardePinnacle"] = {
                 { 5, 37368 }, -- Silent Spectator Shoulderpads
                 { 6, 37367 }, -- Echoing Stompers
                 { 16, "ac2043" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- UPPalehoof / 59
@@ -1995,6 +2145,9 @@ data["UtgardePinnacle"] = {
                 { 4, 37373 }, -- Massive Spaulders of the Jormungar
                 { 5, 37376 }, -- Ferocious Pauldrons of the Rhino
                 { 6, 37371 }, -- Ring of the Frenzied Wolvar
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- UPSkadi / 56
@@ -2018,6 +2171,9 @@ data["UtgardePinnacle"] = {
                 { 16, 44151 }, -- Reins of the Blue Proto-Drake
                 { 18, "ac1873" },
                 { 19, "ac2156" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- UPYmiron / 57
@@ -2052,6 +2208,9 @@ data["UtgardePinnacle"] = {
                 { 18, 41797 }, -- Design: Austere Earthsiege Diamond
                 { 20, "ac1790" },
 				{ 21, "ac2157" },
+            },
+            [TITAN_RUNE_ALPHA_DIFF] = {
+
             }
         },
         { -- Trash
